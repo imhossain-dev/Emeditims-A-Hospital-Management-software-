@@ -1,0 +1,136 @@
+header.myHeader{
+  background-color: orange;
+  text-transform: uppercase;
+  font-family: cursive;
+
+}
+
+div.center{
+  text-align: center;
+}
+
+footer{
+  color:red;
+  padding: 5px;
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+}
+
+body{
+  background-color: pink;
+}
+
+h1.myH1{
+  border: 3px solid cyan;
+  padding: 5px;
+  text-align: center;
+}
+
+h1.myH1 a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h1.myH1 a:hover{
+  color: red;
+  padding: 10px 30px;
+  background-color: lightgreen;
+}
+
+table{
+  width: 700px;
+  height: 200px;
+  text-align: center;
+  border-color: green;
+  color: blue;
+}
+
+.image{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  background-color: grey;
+  padding: 5px;
+  border: 5px groove blue;
+}
+
+p{
+  font-weight: 300;
+  font-family: monospace;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+div.myForm{
+  padding: 5px;
+}
+
+form{
+  background-color: violet;
+  margin : auto;
+  width: 60%;
+}
+
+label{
+  margin: 2px 200px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  background-color: cyan;
+}
+
+input, select{
+  position: relative;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+
+
+/* Project CSS part */
+
+#searchBar{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.navBar{
+  background-color: aquamarine;
+  padding-bottom: 30px;
+}
+.navBar nav{
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.navBar li{
+  display: inline;
+}
+.navBar li a{
+  border: 5px solid darkgoldenrod;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  color: darkgoldenrod;
+  
+}
+.navBar li a:hover{
+  font-style: oblique;
+  border-radius: 15px;
+  
+  border: 5px solid blueviolet ;
+  color: blueviolet;
+  font-size: 30px;
+}
